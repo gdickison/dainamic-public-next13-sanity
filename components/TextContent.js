@@ -28,7 +28,7 @@ export default function TextContent ({headline, text1, text2, button}) {
       {button &&
         <div className="flex justify-center">
           <Button
-            target={'post/1'}
+            target={'/contact'}
             text={"Learn More"}
           />
         </div>
